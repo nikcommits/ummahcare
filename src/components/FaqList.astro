@@ -1,0 +1,45 @@
+---
+interface Props {
+  title: string;
+  items: Array<{ question: string; answer: string }>;
+}
+
+const { title, items } = Astro.props;
+---
+
+<section
+  id="fragen"
+  aria-labelledby="faq-titel"
+  class="scroll-mt-8 bg-teal-soft"
+>
+  <div
+    class="mx-auto w-full max-w-[1200px] px-5 py-16 md:px-8 md:py-24 xl:px-12"
+  >
+    <h2
+      id="faq-titel"
+      class="max-w-3xl text-4xl leading-tight font-semibold tracking-[-0.02em] text-balance md:text-5xl"
+    >
+      {title}
+    </h2>
+    <div class="mt-10 max-w-4xl divide-y divide-ink/20 border-y border-ink/20">
+      {
+        items.map((item) => (
+          <details class="group py-1">
+            <summary class="flex min-h-16 cursor-pointer list-none items-center justify-between gap-5 rounded-lg py-5 text-xl font-semibold marker:hidden focus:outline-3 focus:outline-offset-3 focus:outline-ink">
+              <span>{item.question}</span>
+              <span
+                aria-hidden="true"
+                class="text-2xl transition-transform duration-200 group-open:rotate-45 motion-reduce:transition-none"
+              >
+                +
+              </span>
+            </summary>
+            <p class="max-w-[70ch] pb-6 text-lg leading-relaxed text-ink-soft">
+              {item.answer}
+            </p>
+          </details>
+        ))
+      }
+    </div>
+  </div>
+</section>

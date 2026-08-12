@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Inclusive Sans';
+  src: url('/ummahcare/fonts/inclusive-sans-variable.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans: 'Inclusive Sans', Arial, sans-serif;
+  --color-ink: #173c3a;
+  --color-ink-soft: #435e5c;
+  --color-canvas: #f8faf9;
+  --color-surface: #ffffff;
+  --color-teal-soft: #e6eeeb;
+  --color-teal-brand: #c4ddd8;
+  --color-gold-brand: #aa9663;
+  --color-danger: #8b3246;
+  --color-success: #276749;
+  --shadow-ambient: 0 8px 24px rgb(23 60 58 / 0.1);
+}

@@ -1,0 +1,98 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+type Person = CollectionEntry<'home'>['data']['people'][number];
+
+interface Props {
+  person: Person;
+}
+
+const { person } = Astro.props;
+---
+
+<article
+  id={person.id}
+  data-person-path={person.path}
+  class="scroll-mt-8 rounded-2xl border border-ink/25 bg-white p-6 transition duration-200 data-[highlighted=true]:border-2 data-[highlighted=true]:border-ink data-[highlighted=true]:bg-teal-brand/40 md:p-8 motion-reduce:transition-none"
+>
+  <p class="font-semibold text-ink-soft">{person.audience}</p>
+  <h3 class="mt-2 text-4xl leading-tight font-semibold tracking-[-0.02em]">
+    {person.name}
+  </h3>
+  <p class="mt-4 text-lg leading-relaxed text-ink-soft">{person.intro}</p>
+
+  <dl class="mt-7 space-y-3 border-y border-ink/15 py-6">
+    <div>
+      <dt class="font-semibold">Qualifikation</dt>
+      <dd class="mt-1 text-ink-soft">{person.qualification}</dd>
+    </div>
+    <div>
+      <dt class="sr-only">Gesprächsdauer</dt>
+      <dd class="font-medium">{person.freeDuration}</dd>
+      <dd class="mt-1 font-medium">{person.sessionDuration}</dd>
+    </div>
+    <div>
+      <dt class="font-semibold">Preis</dt>
+      <dd class="mt-1 text-ink-soft">{person.price}</dd>
+    </div>
+  </dl>
+
+  <div class="mt-7 space-y-5">
+    <div>
+      <span
+        aria-disabled="true"
+        class="flex min-h-13 cursor-not-allowed items-center justify-center rounded-xl bg-ink/55 px-5 py-3 text-center font-semibold text-white"
+      >
+        {person.booking.label}
+      </span>
+      <p class="mt-2 text-sm leading-relaxed text-ink-soft">
+        {person.booking.help}
+      </p>
+      <p class="mt-1 text-sm font-semibold text-danger">
+        Buchungslink fehlt noch.
+      </p>
+    </div>
+    <div>
+      <span
+        aria-disabled="true"
+        class="flex min-h-13 cursor-not-allowed items-center justify-center rounded-xl border border-ink/45 bg-white px-5 py-3 text-center font-semibold text-ink/55"
+      >
+        {person.whatsapp.label}
+      </span>
+      <p class="mt-2 text-sm leading-relaxed text-ink-soft">
+        {person.whatsapp.help}
+      </p>
+      <p class="mt-1 text-sm font-semibold text-danger">
+        WhatsApp-Nummer fehlt noch.
+      </p>
+    </div>
+    <a
+      href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/kontakt/${person.path}/`}
+      class="inline-flex min-h-12 items-center rounded-lg font-semibold text-ink underline decoration-2 underline-offset-5 focus:outline-3 focus:outline-offset-3 focus:outline-ink"
+    >
+      {person.formLabel}
+    </a>
+  </div>
+</article>
+
+<script>
+  const pathChoices =
+    document.querySelectorAll<HTMLElement>('[data-path-choice]');
+  const personCards =
+    document.querySelectorAll<HTMLElement>('[data-person-path]');
+
+  const highlightPerson = (path: string) => {
+    for (const card of personCards)
+      card.dataset.highlighted = String(card.dataset.personPath === path);
+  };
+
+  const stored = sessionStorage.getItem('ummahcare-path');
+  if (stored) highlightPerson(stored);
+
+  for (const choice of pathChoices) {
+    choice.addEventListener('click', () => {
+      const path = choice.dataset.pathChoice;
+      if (path) highlightPerson(path);
+    });
+  }
+</script>

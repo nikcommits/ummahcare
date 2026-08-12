@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-12T00:00:00+02:00",
+  "title": "Design System: UmmahCare",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "primary",
+        "displayName": "Gesprächsraum-Dunkelteal",
+        "canonical": "#173C3A",
+        "tonalRamp": [
+          "#071413",
+          "#173C3A",
+          "#2B5552",
+          "#517773",
+          "#85A39F",
+          "#B8CECB",
+          "#E6EEEB",
+          "#F8FAF9"
+        ]
+      },
+      "teal-brand": {
+        "role": "secondary",
+        "displayName": "Logo-Teal",
+        "canonical": "#C4DDD8",
+        "tonalRamp": [
+          "#102B29",
+          "#234A47",
+          "#3D6965",
+          "#6B928E",
+          "#99BBB6",
+          "#C4DDD8",
+          "#E6F0EE",
+          "#F5FAF9"
+        ]
+      },
+      "gold-brand": {
+        "role": "tertiary",
+        "displayName": "Gedämpftes Logogold",
+        "canonical": "#AA9663",
+        "tonalRamp": [
+          "#2A2415",
+          "#4C4025",
+          "#716039",
+          "#927D4F",
+          "#AA9663",
+          "#C4B58E",
+          "#E0D6BD",
+          "#F5F0E4"
+        ]
+      },
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Klares Off-White",
+        "canonical": "#F8FAF9",
+        "tonalRamp": [
+          "#151817",
+          "#303533",
+          "#515856",
+          "#7B8481",
+          "#A8B0AD",
+          "#D3D8D6",
+          "#EDF0EF",
+          "#F8FAF9"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Ruhige Hauptaussage",
+        "purpose": "Nur H1; lange deutsche Wörter auf 320px testen."
+      },
+      "body": {
+        "displayName": "Offener Lesetext",
+        "purpose": "Fließtext bis maximal 70ch."
+      }
+    },
+    "shadows": [
+      {
+        "name": "ambient-low",
+        "value": "0 8px 24px rgba(23, 60, 58, 0.10)",
+        "purpose": "Nur schwebende Navigation und Hover einer Wegfläche."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state-fast",
+        "value": "180ms cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "Hover-, Fokus- und Auswahlzustände."
+      },
+      {
+        "name": "hero-enter",
+        "value": "280ms cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "Einmaliger Hero-Einstieg; ohne versteckte Ausgangsinhalte."
+      }
+    ],
+    "breakpoints": [
+      { "name": "compact", "value": "768px" },
+      { "name": "wide", "value": "1152px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primäre Buchungsaktion.",
+      "html": "<button class=\"ds-btn-primary\">Erstgespräch buchen</button>",
+      "css": ".ds-btn-primary{min-height:52px;padding:14px 20px;border:1px solid #173C3A;border-radius:12px;background:#173C3A;color:#fff;font:600 16px/1.3 'Inclusive Sans',Arial,sans-serif;transition:transform 180ms cubic-bezier(.22,1,.36,1),box-shadow 180ms cubic-bezier(.22,1,.36,1)}.ds-btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(23,60,58,.1)}.ds-btn-primary:focus-visible{outline:3px solid #173C3A;outline-offset:2px}.ds-btn-primary:active{transform:none}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Gleichwertige WhatsApp-Frage ohne Primäraktions-Look.",
+      "html": "<button class=\"ds-btn-secondary\">\u00dcber WhatsApp fragen</button>",
+      "css": ".ds-btn-secondary{min-height:52px;padding:14px 20px;border:1px solid #173C3A;border-radius:12px;background:#fff;color:#173C3A;font:600 16px/1.3 'Inclusive Sans',Arial,sans-serif;transition:transform 180ms cubic-bezier(.22,1,.36,1),box-shadow 180ms cubic-bezier(.22,1,.36,1)}.ds-btn-secondary:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(23,60,58,.1)}.ds-btn-secondary:focus-visible{outline:3px solid #173C3A;outline-offset:2px}.ds-btn-secondary:active{transform:none}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Einspaltiges Feld mit dauerhaft sichtbarem Label.",
+      "html": "<label class=\"ds-field\"><span>Kontaktmöglichkeit</span><input type=\"text\" aria-describedby=\"ds-help\"><small id=\"ds-help\">Bitte nur notwendige Rückkontaktdaten angeben.</small></label>",
+      "css": ".ds-field{display:grid;gap:8px;color:#173C3A;font:600 16px/1.3 'Inclusive Sans',Arial,sans-serif}.ds-field input{min-height:52px;padding:14px 16px;border:1px solid #435E5C;border-radius:8px;background:#fff;color:#173C3A;font:400 18px/1.4 'Inclusive Sans',Arial,sans-serif}.ds-field input:focus-visible{outline:3px solid #173C3A;outline-offset:2px}.ds-field small{color:#435E5C;font-size:14px;font-weight:400;line-height:1.5}"
+    },
+    {
+      "name": "Gesprächsweg",
+      "kind": "custom",
+      "refersTo": "path-choice",
+      "description": "Große, semantisch eindeutige Wegwahl.",
+      "html": "<button class=\"ds-path\"><span>Für Schwestern</span><strong>Gespräch mit Jessica</strong></button>",
+      "css": ".ds-path{display:grid;gap:6px;width:100%;min-height:112px;padding:24px;text-align:left;border:1px solid #435E5C;border-radius:16px;background:#fff;color:#173C3A;font:400 16px/1.4 'Inclusive Sans',Arial,sans-serif;transition:transform 180ms cubic-bezier(.22,1,.36,1),box-shadow 180ms cubic-bezier(.22,1,.36,1)}.ds-path strong{font-size:22px}.ds-path:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(23,60,58,.1)}.ds-path:focus-visible{outline:3px solid #173C3A;outline-offset:2px}.ds-path[aria-pressed=true]{border:2px solid #173C3A;background:#C4DDD8}"
+    },
+    {
+      "name": "Grenzenhinweis",
+      "kind": "custom",
+      "refersTo": "boundary-panel",
+      "description": "Hoch priorisierte Leistungsabgrenzung ohne Alarmästhetik.",
+      "html": "<aside class=\"ds-boundary\"><h3>Was die Beratung ist. Und was nicht.</h3><p>Lebensberatung für alltagsbezogene, nicht-klinische Fragen.</p></aside>",
+      "css": ".ds-boundary{padding:32px;border-radius:16px;background:#173C3A;color:#fff;font:400 18px/1.65 'Inclusive Sans',Arial,sans-serif}.ds-boundary h3{margin:0 0 12px;font-size:28px;line-height:1.2;letter-spacing:-.02em}.ds-boundary p{margin:0;max-width:65ch}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Der ruhige Gesprächsraum",
+    "overview": "Die Website fühlt sich an wie ein heller, geordneter Raum vor einem vertraulichen Gespräch: ruhig, offen und eindeutig. Struktur und Sprache tragen Vertrauen; Dekoration bleibt dem Logo und wenigen ruhigen Flächen vorbehalten.",
+    "keyCharacteristics": [
+      "mobile-first, luftig, kontrastreich",
+      "zwei gleichwertige und dauerhaft eindeutige Gesprächswege",
+      "flache Flächen statt Kartenstapel oder Glas",
+      "Gold als seltenes Markensignal, nie als Lesefarbe",
+      "progressive Verbesserung ohne versteckten Kerninhalt"
+    ],
+    "rules": [
+      {
+        "name": "The Gold Is Not Text Rule",
+        "body": "Gold ist Akzent, nie Informationsträger.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Paths Rule",
+        "body": "Wege unterscheiden sich durch Namen, Text, Symbol und Auswahlzustand, nie durch Rosa/Blau-Codierung.",
+        "section": "colors"
+      },
+      {
+        "name": "The Logo Script Rule",
+        "body": "Schreibschrift wird nicht als Webfont nachgebaut und nie für Headlines oder Lesetext benutzt.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat-By-Default Rule",
+        "body": "Wenn mehr als zwei Schatten gleichzeitig im Viewport sichtbar sind, ist die Oberfläche zu unruhig.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do mobile Hero und Wegwahl zuerst testen: 320px, 375px, 768px und 1280px.",
+      "Do Gold auf höchstens 10% einer Ansicht begrenzen.",
+      "Do Kerninhalt ohne JavaScript sichtbar und nutzbar halten."
+    ],
+    "donts": [
+      "Don't klinischen Praxis-, Therapieportal- oder Krankenhaus-Look bauen.",
+      "Don't esoterische Wellness-, Mystik- oder Luxusästhetik verwenden.",
+      "Don't Kontaktwege für Schwestern und Brüder vermischen.",
+      "Don't Gradienttext, Glassmorphism, Seitenstreifen an Karten, verschachtelte Karten oder wiederholte Mini-Eyebrows bauen."
+    ]
+  }
+}

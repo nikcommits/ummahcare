@@ -1,0 +1,56 @@
+---
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const navigation = [
+  { href: `${base}/#begleitung`, label: 'Begleitung' },
+  { href: `${base}/#ablauf`, label: 'Ablauf' },
+  { href: `${base}/#fragen`, label: 'Häufige Fragen' },
+];
+---
+
+<header class="border-b border-ink/10 bg-canvas/95 backdrop-blur-sm">
+  <div
+    class="mx-auto flex min-h-20 w-full max-w-[1200px] items-center justify-between gap-6 px-5 md:px-8 xl:px-12"
+  >
+    <a
+      href={`${base}/`}
+      aria-label="UmmahCare Startseite"
+      class="flex items-center gap-3 rounded-lg focus:outline-3 focus:outline-offset-4 focus:outline-ink"
+    >
+      <span
+        class="grid size-12 shrink-0 place-items-center overflow-hidden rounded-full bg-ink p-1"
+      >
+        <img
+          src={`${base}/images/ummahcare-logo.png`}
+          width="1254"
+          height="1254"
+          alt=""
+          class="h-12 w-12 scale-125 object-contain"
+        />
+      </span>
+      <span class="text-lg font-semibold tracking-[-0.02em] sm:text-xl"
+        >UmmahCare</span
+      >
+    </a>
+
+    <nav aria-label="Hauptnavigation" class="hidden items-center gap-7 md:flex">
+      {
+        navigation.map((item) => (
+          <a
+            href={item.href}
+            class="rounded-md py-3 text-base font-semibold text-ink-soft underline-offset-6 transition-colors hover:text-ink hover:underline focus:outline-3 focus:outline-offset-3 focus:outline-ink motion-reduce:transition-none"
+          >
+            {item.label}
+          </a>
+        ))
+      }
+    </nav>
+
+    <a
+      href={`${base}/#gespraechsweg`}
+      class="inline-flex min-h-12 items-center justify-center rounded-xl bg-ink px-4 py-3 text-center text-sm font-semibold text-white transition-transform duration-200 hover:-translate-y-0.5 focus:outline-3 focus:outline-offset-3 focus:outline-ink motion-reduce:transform-none motion-reduce:transition-none sm:text-base"
+    >
+      <span class="sm:hidden">Weg wählen</span>
+      <span class="hidden sm:inline">Gesprächsweg wählen</span>
+    </a>
+  </div>
+</header>

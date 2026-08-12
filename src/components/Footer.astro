@@ -1,0 +1,51 @@
+---
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<footer class="border-t border-ink/10 bg-ink text-white">
+  <div
+    class="mx-auto grid w-full max-w-[1200px] gap-10 px-5 py-12 md:grid-cols-[1.5fr_1fr] md:px-8 md:py-16 xl:px-12"
+  >
+    <div class="max-w-xl">
+      <div class="mb-5 flex items-center gap-4">
+        <img
+          src={`${base}/images/ummahcare-logo.png`}
+          width="1254"
+          height="1254"
+          alt=""
+          class="h-20 w-20 object-contain"
+        />
+        <strong class="text-2xl">UmmahCare</strong>
+      </div>
+      <p class="text-lg leading-relaxed text-white/85">
+        Islamisch integrierte Lebensberatung online für deutschsprachige Muslime
+        im DACH-Raum.
+      </p>
+    </div>
+    <div>
+      <h2 class="mb-4 text-lg font-semibold">Rechtliches</h2>
+      <ul class="space-y-2 text-white/85">
+        <li>
+          <a
+            href={`${base}/impressum/`}
+            class="rounded-sm underline underline-offset-4 hover:text-white focus:outline-3 focus:outline-offset-3 focus:outline-white"
+            >Impressum</a
+          >
+        </li>
+        <li>
+          <a
+            href={`${base}/datenschutz/`}
+            class="rounded-sm underline underline-offset-4 hover:text-white focus:outline-3 focus:outline-offset-3 focus:outline-white"
+            >Datenschutz</a
+          >
+        </li>
+      </ul>
+      <p
+        class="mt-7 rounded-lg border border-white/25 px-4 py-3 text-sm leading-relaxed text-white/75"
+      >
+        Entwicklungsstand. Veröffentlichung bleibt bis zur Freigabe aller
+        Pflichtangaben gesperrt.
+      </p>
+    </div>
+  </div>
+</footer>

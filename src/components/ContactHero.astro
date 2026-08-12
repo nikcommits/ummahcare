@@ -1,0 +1,42 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+type Contact = CollectionEntry<'contact'>['data'];
+
+interface Props {
+  data: Contact;
+}
+
+const { data } = Astro.props;
+---
+
+<section class="border-b border-ink/10 bg-teal-soft">
+  <div
+    class="mx-auto grid w-full max-w-[1200px] items-center gap-10 px-5 py-14 md:px-8 md:py-20 lg:grid-cols-[1fr_auto] xl:px-12"
+  >
+    <div class="max-w-3xl">
+      <p class="font-semibold text-ink-soft">{data.hero.eyebrow}</p>
+      <h1
+        class="mt-4 text-[clamp(2.5rem,7vw,5rem)] leading-[1.04] font-semibold tracking-[-0.03em] text-balance"
+      >
+        {data.hero.title}
+      </h1>
+      <h2
+        class="mt-6 text-2xl leading-snug font-semibold text-balance sm:text-3xl"
+      >
+        {data.hero.subtitle}
+      </h2>
+      <p
+        class="mt-5 max-w-[65ch] text-lg leading-relaxed text-ink-soft sm:text-xl"
+      >
+        {data.hero.lead}
+      </p>
+    </div>
+    <div
+      class="grid size-28 place-items-center rounded-full border border-ink/20 bg-white text-center sm:size-36"
+    >
+      <span class="text-sm font-semibold text-ink-soft">Gespräch mit</span>
+      <strong class="-mt-6 text-2xl">{data.person}</strong>
+    </div>
+  </div>
+</section>

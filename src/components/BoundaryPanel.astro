@@ -1,0 +1,40 @@
+---
+interface Props {
+  title: string;
+  paragraphs?: string[];
+  text?: string;
+  crisisLead?: string;
+  crisisPlaceholder: string;
+}
+
+const {
+  title,
+  paragraphs = [],
+  text,
+  crisisLead,
+  crisisPlaceholder,
+} = Astro.props;
+---
+
+<section aria-labelledby="grenzen-titel" class="bg-ink text-white">
+  <div
+    class="mx-auto w-full max-w-[1200px] px-5 py-16 md:px-8 md:py-24 xl:px-12"
+  >
+    <div class="max-w-[760px]">
+      <h2
+        id="grenzen-titel"
+        class="text-4xl leading-tight font-semibold tracking-[-0.02em] text-balance md:text-5xl"
+      >
+        {title}
+      </h2>
+      <div class="mt-7 space-y-5 text-lg leading-relaxed text-white/88">
+        {text && <p>{text}</p>}
+        {paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+      </div>
+      <div class="mt-8 rounded-xl border border-white/30 bg-white/8 p-5">
+        {crisisLead && <p class="font-semibold text-white">{crisisLead}</p>}
+        <p class="mt-2 leading-relaxed text-white/82">{crisisPlaceholder}</p>
+      </div>
+    </div>
+  </div>
+</section>
