@@ -105,7 +105,7 @@ Content: maximal `1200px`; Lesetext maximal `70ch`; mobile Randbreite `20px`, Ta
 ## 5. Kontaktseiten
 
 - Kontext im Hero fest: „Kontakt für Schwestern / Jessica“ oder „Kontakt für Brüder / Mario“.
-- Drei klar getrennte Wege in Reihenfolge: Erstgespräch, WhatsApp, Formular.
+- Drei klar getrennte Wege in Reihenfolge: 50-Minuten-Session, WhatsApp, Formular.
 - Externe Wege als normale Links; Formular bleibt darunter als ruhiger Fallback.
 - Kein Wechsel-Link zum anderen Gesprächsweg im Conversion-Bereich.
 

@@ -2,9 +2,16 @@ import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
 
+const externalLinkSchema = z.object({
+  label: z.string(),
+  href: z.url(),
+});
+
 const actionSchema = z.object({
   label: z.string(),
+  href: z.url().optional(),
   help: z.string().optional(),
+  secondary: externalLinkSchema.optional(),
 });
 
 const home = defineCollection({
@@ -27,6 +34,20 @@ const home = defineCollection({
       }),
     ),
     belief: z.object({ title: z.string(), paragraphs: z.array(z.string()) }),
+    videos: z.object({
+      title: z.string(),
+      intro: z.string(),
+      items: z.array(
+        z.object({
+          title: z.string(),
+          summary: z.string(),
+          note: z.string().optional(),
+          href: z.url(),
+          label: z.string(),
+        }),
+      ),
+      privacyNote: z.string(),
+    }),
     topics: z.object({
       title: z.string(),
       items: z.array(z.object({ title: z.string(), text: z.string() })),
@@ -118,6 +139,16 @@ const legal = defineCollection({
     title: z.string(),
     description: z.string(),
     notice: z.string(),
+    externalServices: z
+      .array(
+        z.object({
+          title: z.string(),
+          paragraphs: z.array(z.string()),
+          privacyLabel: z.string(),
+          privacyUrl: z.url(),
+        }),
+      )
+      .optional(),
   }),
 });
 

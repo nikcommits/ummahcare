@@ -3,22 +3,27 @@ path: schwestern
 person: Jessica
 meta:
   title: Kontakt für Schwestern | UmmahCare
-  description: Erstgespräch mit Jessica buchen, kurze Frage über WhatsApp senden oder einen vertraulichen Rückkontakt anfragen.
+  description: 50-minütige Session mit Jessica buchen, kurze Frage über WhatsApp senden oder einen vertraulichen Rückkontakt anfragen.
 hero:
   eyebrow: Dein Gesprächsweg bei UmmahCare
   title: Kontakt für Schwestern
   subtitle: Dein direkter Weg zu Jessica
-  lead: Du kannst ein kostenfreies 30-minütiges Erstgespräch buchen, eine kurze Frage über WhatsApp senden oder das Kontaktformular nutzen.
+  lead: Du kannst eine 50-minütige Session für 25 € buchen, eine kurze Frage über WhatsApp senden oder das Kontaktformular nutzen.
 booking:
-  title: Erstgespräch buchen
-  text: Im kostenfreien Erstgespräch lernst du Jessica kennen und klärst, ob UmmahCare zu deinem Anliegen passt. Das Gespräch dauert 30 Minuten.
-  label: Erstgespräch mit Jessica buchen
-  help: Es öffnet sich ein externer Buchungskalender. Dort wählst du deinen Termin. Anschließend erhältst du deinen Zoom-Link und Terminerinnerungen.
+  title: Gespräch buchen
+  text: Die Session mit Jessica dauert 50 Minuten und kostet 25 €.
+  label: 50-Minuten-Session mit Jessica buchen
+  href: https://calendly.com/info-ummahcare/ummahcare-50minsession-schwester
+  help: Erst mit dem Klick öffnet sich Calendly. Dort wählst du deinen Termin und es gelten die Datenschutzbestimmungen von Calendly.
+  secondary:
+    label: Folgetermin mit Jessica buchen
+    href: https://calendly.com/info-ummahcare/folge-termin-ummahcare
 whatsapp:
   title: Über WhatsApp fragen
   text: WhatsApp eignet sich für eine kurze organisatorische Frage oder erste Anfrage. Bitte sende dort keine ausführlichen sensiblen Angaben zu deiner persönlichen Situation.
   label: Jessica über WhatsApp fragen
-  help: Es öffnet sich WhatsApp. Informationen zur Datenverarbeitung folgen in der Datenschutzerklärung.
+  href: https://wa.me/4915567101345
+  help: Erst mit dem Klick öffnet sich WhatsApp. Sende bitte nur eine kurze organisatorische Anfrage und keine sensiblen Einzelheiten.
 form:
   title: Rückkontakt anfragen
   text: Nutze das Formular, wenn du weder direkt buchen noch WhatsApp verwenden möchtest. Wir fragen nur Daten ab, die für den Rückkontakt erforderlich sind.
@@ -41,7 +46,7 @@ boundary:
 closing:
   title: Jetzt Kontaktweg wählen
   actions:
-    - Erstgespräch mit Jessica buchen
+    - 50-Minuten-Session mit Jessica buchen
     - Jessica über WhatsApp fragen
     - Rückkontakt von Jessica anfragen
 ---

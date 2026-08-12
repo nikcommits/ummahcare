@@ -34,4 +34,4 @@ Marketing- und Kontakttexte liegen unter `src/content/`. Struktur und Validierun
 
 ## Veröffentlichungssperre
 
-Alle Routen sind aktuell `noindex, nofollow`. Buchung, WhatsApp und Formular sind technisch deaktiviert. Vor Preview/Go-live fehlen Preis, exakte Qualifikationen, Nummern, Calendly-Links, Formularprozess, geprüfter Krisenhinweis, Rechtsdaten und Domain.
+Alle Routen sind aktuell `noindex, nofollow`. Die verifizierten WhatsApp-, Calendly- und YouTube-Ziele sind als datensparsame externe Direktlinks aktiv; es gibt keine Drittanbieter-Embeds. Formular und Go-live bleiben gesperrt. Vor Go-live fehlen exakte Qualifikationen, finaler Formularprozess, geprüfter Krisenhinweis, vollständige Rechtsdaten, rechtliche Prüfung der Drittanbieter-Texte und Domain.

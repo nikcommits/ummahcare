@@ -147,7 +147,7 @@ Flach als Standard. Tiefe entsteht durch Tonflächen, Abstand und volle 1px-Rahm
 ### Buttons
 
 - **Shape:** ruhig gerundet (`12px`), mindestens `52px` hoch, große Textlabels.
-- **Primary:** `#173C3A` auf `#FFFFFF`; für „Erstgespräch buchen“.
+- **Primary:** `#173C3A` auf `#FFFFFF`; für „50-Minuten-Session buchen“.
 - **Secondary:** weiß mit vollem 1px-Dunkeltealrahmen; für „Über WhatsApp fragen“.
 - **Hover / Focus:** maximal `translateY(-2px)` und Ambient-Low-Schatten; dunkler Fokusring bleibt sichtbar.
 - **Disabled:** nur wenn technisch zwingend; nicht als Ersatz für eine erklärende Validierung. Grund daneben nennen.
@@ -187,6 +187,7 @@ Flach als Standard. Tiefe entsteht durch Tonflächen, Abstand und volle 1px-Rahm
 - **Do** Gold auf höchstens 10% einer Ansicht begrenzen.
 - **Do** Kerninhalt ohne JavaScript sichtbar und nutzbar halten.
 - **Do** externe WhatsApp-, Calendly- und Zoom-Wechsel vor dem Link erklären.
+- **Do** YouTube-Videos als lokale Textkarten mit externem Link zeigen; kein Iframe und kein extern geladenes Vorschaubild.
 - **Do** Inclusive Sans lokal samt Lizenz ausliefern oder vor Bau eine gleichwertige lokale Alternative freigeben.
 
 ### Don't:

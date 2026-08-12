@@ -4,6 +4,7 @@ import BoundaryPanel from '../components/BoundaryPanel.astro';
 import FaqList from '../components/FaqList.astro';
 import HomeHero from '../components/HomeHero.astro';
 import PersonCard from '../components/PersonCard.astro';
+import VideoLinks from '../components/VideoLinks.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 
 const entries = await getCollection('home');
@@ -33,6 +34,8 @@ const { data } = page;
       </div>
     </div>
   </section>
+
+  <VideoLinks videos={data.videos} />
 
   <section id="begleitung" class="scroll-mt-8">
     <div

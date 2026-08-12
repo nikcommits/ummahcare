@@ -6,9 +6,23 @@ interface Props {
   help?: string;
   missing: string;
   primary?: boolean;
+  href?: string;
+  secondary?: {
+    label: string;
+    href: string;
+  };
 }
 
-const { title, text, label, help, missing, primary = false } = Astro.props;
+const {
+  title,
+  text,
+  label,
+  help,
+  missing,
+  primary = false,
+  href,
+  secondary,
+} = Astro.props;
 ---
 
 <section class="rounded-2xl border border-ink/20 bg-white p-6 md:p-8">
@@ -23,16 +37,50 @@ const { title, text, label, help, missing, primary = false } = Astro.props;
       </p>
     )
   }
-  <span
-    aria-disabled="true"
-    class:list={[
-      'mt-6 flex min-h-13 cursor-not-allowed items-center justify-center rounded-xl px-5 py-3 text-center font-semibold',
-      primary
-        ? 'bg-ink/55 text-white'
-        : 'border border-ink/45 bg-white text-ink/55',
-    ]}
-  >
-    {label}
-  </span>
-  <p class="mt-2 text-sm font-semibold text-danger">{missing}</p>
+  {
+    href ? (
+      <div class="mt-6 space-y-3">
+        <a
+          href={href}
+          target="_blank"
+          rel="external noopener noreferrer"
+          class:list={[
+            'flex min-h-13 items-center justify-center rounded-xl px-5 py-3 text-center font-semibold focus:outline-3 focus:outline-offset-3 focus:outline-ink',
+            primary
+              ? 'bg-ink text-white hover:bg-ink-soft'
+              : 'border border-ink bg-white text-ink hover:bg-teal-soft',
+          ]}
+        >
+          {label}
+          <span class="sr-only"> (öffnet extern in einem neuen Tab)</span>
+        </a>
+        {secondary && (
+          <a
+            href={secondary.href}
+            target="_blank"
+            rel="external noopener noreferrer"
+            class="flex min-h-12 items-center justify-center rounded-xl border border-ink bg-white px-5 py-3 text-center font-semibold text-ink hover:bg-teal-soft focus:outline-3 focus:outline-offset-3 focus:outline-ink"
+          >
+            {secondary.label}
+            <span class="sr-only"> (öffnet extern in einem neuen Tab)</span>
+          </a>
+        )}
+      </div>
+    ) : (
+      <>
+        <span
+          aria-disabled="true"
+          class:list={[
+            'mt-6 flex min-h-13 cursor-not-allowed items-center justify-center rounded-xl px-5 py-3 text-center font-semibold',
+            primary
+              ? 'bg-ink/55 text-white'
+              : 'border border-ink/45 bg-white text-ink/55',
+          ]}
+        >
+          {label}
+        </span>
+        <p class="mt-2 text-sm font-semibold text-danger">{missing}</p>
+      </>
+    )
+  }
 </section>

@@ -54,6 +54,18 @@ Persönliche Fragen lassen sich nicht immer sauber in Alltag und Religion trenne
 
 UmmahCare unterstützt dich dabei, Gedanken zu sortieren, deine Situation klarer zu betrachten und nächste Schritte für deinen Alltag zu entwickeln. Dabei gibt UmmahCare keine Diagnose und keine islamrechtliche Auskunft.
 
+## UmmahCare in zwei kurzen Videos kennenlernen
+
+Jessica und Mario erklären selbst, wofür UmmahCare steht und wie eine Buchung und Beratung grundsätzlich ablaufen. Die Videos sind aus Datenschutzgründen nicht direkt eingebettet.
+
+**Video 1: Was ist UmmahCare?**
+Jessica und Mario stellen UmmahCare vor. Sie erklären ihren geschlechtergetrennten Beratungsansatz, nennen typische Alltagsthemen und grenzen das Angebot klar von einer Therapie psychischer Störungen ab.
+
+**Video 2: So laufen Buchung und Beratung ab**
+Mario erklärt die getrennten Kontaktwege für Schwestern und Brüder, die Vorbereitung über Buchungsfragen, Terminbestätigung und Videokonferenz sowie den groben Ablauf eines Gesprächs.
+
+**Datenschutzhinweis:** Erst beim Klick verlässt du UmmahCare und öffnest YouTube. Die Video-Aussage „anonym“ wird nicht als Website-Fakt übernommen; Kontakt und Buchung sind vertraulich, aber nicht anonym.
+
 ## Wobei dich UmmahCare begleitet
 
 ### Gebet
@@ -89,12 +101,13 @@ Jessica führt die Gespräche mit Schwestern.
 
 **Qualifikation:** [EXAKTE QUALIFIKATION NACH SCHRIFTLICHEM NACHWEIS EINFÜGEN]
 
-**Kostenfreies Erstgespräch:** 30 Minuten  
-**Reguläres Einzelgespräch:** 45 Minuten  
-**Preis:** [PREIS EINFÜGEN]
+**Einzelgespräch:** 50 Minuten
+**Preis:** 25 € pro Sitzung
 
-**Aktion 1:** Erstgespräch mit Jessica buchen  
-**Hinweis:** Es öffnet sich der externe Buchungskalender. Nach der Buchung erhältst du deinen Zoom-Link und Terminerinnerungen.
+**Aktion 1:** 50-Minuten-Session mit Jessica buchen
+**Hinweis:** Erst mit dem Klick öffnet sich Calendly. Dort gelten die Datenschutzbestimmungen von Calendly.
+
+**Zusatzaktion:** Folgetermin mit Jessica buchen
 
 **Aktion 2:** Jessica über WhatsApp fragen  
 **Hinweis:** Es öffnet sich WhatsApp. Teile dort bitte nur eine kurze Anfrage und keine ausführlichen sensiblen Angaben.
@@ -107,12 +120,11 @@ Mario führt die Gespräche mit Brüdern.
 
 **Qualifikation:** [EXAKTE QUALIFIKATION NACH SCHRIFTLICHEM NACHWEIS EINFÜGEN]
 
-**Kostenfreies Erstgespräch:** 30 Minuten  
-**Reguläres Einzelgespräch:** 45 Minuten  
-**Preis:** [PREIS EINFÜGEN]
+**Einzelgespräch:** 50 Minuten
+**Preis:** 25 € pro Sitzung
 
-**Aktion 1:** Erstgespräch mit Mario buchen  
-**Hinweis:** Es öffnet sich der externe Buchungskalender. Nach der Buchung erhältst du deinen Zoom-Link und Terminerinnerungen.
+**Aktion 1:** 50-Minuten-Session mit Mario buchen
+**Hinweis:** Erst mit dem Klick öffnet sich Calendly. Dort gelten die Datenschutzbestimmungen von Calendly.
 
 **Aktion 2:** Mario über WhatsApp fragen  
 **Hinweis:** Es öffnet sich WhatsApp. Teile dort bitte nur eine kurze Anfrage und keine ausführlichen sensiblen Angaben.
@@ -125,13 +137,13 @@ Mario führt die Gespräche mit Brüdern.
 
 Als Schwester wählst du Jessica. Als Bruder wählst du Mario. So bleibt dein Weg von der ersten Anfrage bis zur Buchung eindeutig.
 
-### 2. Kostenfreies Erstgespräch buchen
+### 2. Einzelgespräch buchen
 
-Im ersten 30-minütigen Gespräch lernst du deine Ansprechperson kennen und klärst, ob UmmahCare zu deinem Anliegen und deinen Erwartungen passt.
+Du buchst eine 50-minütige Session mit deiner Ansprechperson. Der Preis beträgt 25 €.
 
-### 3. Einzelgespräch vereinbaren
+### 3. Folgetermin vereinbaren
 
-Wenn du weitermachen möchtest, buchst du ein 45-minütiges Einzelgespräch zum Preis von **[PREIS EINFÜGEN]**.
+Schwestern können über einen gesonderten Link einen Folgetermin mit Jessica buchen. Für Brüder liegt derzeit nur der Link zur regulären Session vor.
 
 ### 4. Online sprechen
 
@@ -157,7 +169,7 @@ Nein. UmmahCare bietet Lebensberatung für alltagsbezogene, nicht-klinische Frag
 
 ### Mit wem spreche ich?
 
-Schwestern sprechen mit Jessica, Brüder mit Mario. Beide Wege bieten dasselbe Gesprächsformat: ein kostenfreies Erstgespräch von 30 Minuten und ein reguläres Einzelgespräch von 45 Minuten. Die genauen Qualifikationsbezeichnungen werden vor Veröffentlichung anhand schriftlicher Nachweise ergänzt.
+Schwestern sprechen mit Jessica, Brüder mit Mario. Die verlinkten Calendly-Seiten führen jeweils zu einer 50-minütigen Session. Die genauen Qualifikationsbezeichnungen werden vor Veröffentlichung anhand schriftlicher Nachweise ergänzt.
 
 ### Ist die Beratung anonym?
 
@@ -165,11 +177,11 @@ Die Gespräche werden vertraulich behandelt, sind aber nicht anonym. Für Rückk
 
 ### Was kostet die Beratung?
 
-Das erste Gespräch dauert 30 Minuten und ist kostenfrei. Ein reguläres Einzelgespräch dauert 45 Minuten. Der verbindliche Preis wird vor der Buchung klar angegeben. **[PREIS EINFÜGEN; SEITE DARF OHNE PREIS NICHT VERÖFFENTLICHT WERDEN.]**
+Die verlinkte Session dauert 50 Minuten und kostet 25 €. Vor Abschluss der Buchung siehst du die verbindlichen Bedingungen direkt bei Calendly.
 
 ## Passenden Gesprächsweg wählen
 
-Wähle die Ansprechperson, die für deinen Gesprächsweg vorgesehen ist. Danach kannst du ein kostenfreies Erstgespräch buchen oder eine kurze Frage über WhatsApp senden.
+Wähle die Ansprechperson, die für deinen Gesprächsweg vorgesehen ist. Danach kannst du eine 50-minütige Session buchen oder eine kurze Frage über WhatsApp senden.
 
 **Aktion 1:** Für Schwestern zu Jessica  
 **Aktion 2:** Für Brüder zu Mario
@@ -182,7 +194,7 @@ Wähle die Ansprechperson, die für deinen Gesprächsweg vorgesehen ist. Danach 
 
 **Meta-Title:** Kontakt für Schwestern | UmmahCare
 
-**Meta-Description:** Erstgespräch mit Jessica buchen, kurze Frage über WhatsApp senden oder einen vertraulichen Rückkontakt anfragen.
+**Meta-Description:** 50-minütige Session mit Jessica buchen, kurze Frage über WhatsApp senden oder einen vertraulichen Rückkontakt anfragen.
 
 ## Hero
 
@@ -192,13 +204,13 @@ Wähle die Ansprechperson, die für deinen Gesprächsweg vorgesehen ist. Danach 
 
 ## Dein direkter Weg zu Jessica
 
-Du kannst ein kostenfreies 30-minütiges Erstgespräch buchen, eine kurze Frage über WhatsApp senden oder das Kontaktformular nutzen.
+Du kannst eine 50-minütige Session für 25 € buchen, eine kurze Frage über WhatsApp senden oder das Kontaktformular nutzen.
 
-## Erstgespräch buchen
+## Gespräch buchen
 
-Im kostenfreien Erstgespräch lernst du Jessica kennen und klärst, ob UmmahCare zu deinem Anliegen passt. Das Gespräch dauert 30 Minuten.
+Die Session mit Jessica dauert 50 Minuten und kostet 25 €.
 
-**Aktion:** Erstgespräch mit Jessica buchen
+**Aktion:** 50-Minuten-Session mit Jessica buchen
 
 **Hinweis vor dem Link:** Es öffnet sich ein externer Buchungskalender. Dort wählst du deinen Termin. Anschließend erhältst du deinen Zoom-Link und Terminerinnerungen.
 
@@ -233,7 +245,7 @@ Wenn du dich oder andere akut gefährdet siehst oder sofort Hilfe brauchst, wend
 
 ## Jetzt Kontaktweg wählen
 
-**Aktion 1:** Erstgespräch mit Jessica buchen  
+**Aktion 1:** 50-Minuten-Session mit Jessica buchen
 **Aktion 2:** Jessica über WhatsApp fragen  
 **Aktion 3:** Rückkontakt von Jessica anfragen
 
@@ -245,7 +257,7 @@ Wenn du dich oder andere akut gefährdet siehst oder sofort Hilfe brauchst, wend
 
 **Meta-Title:** Kontakt für Brüder | UmmahCare
 
-**Meta-Description:** Erstgespräch mit Mario buchen, kurze Frage über WhatsApp senden oder einen vertraulichen Rückkontakt anfragen.
+**Meta-Description:** 50-minütige Session mit Mario buchen, kurze Frage über WhatsApp senden oder einen vertraulichen Rückkontakt anfragen.
 
 ## Hero
 
@@ -255,13 +267,13 @@ Wenn du dich oder andere akut gefährdet siehst oder sofort Hilfe brauchst, wend
 
 ## Dein direkter Weg zu Mario
 
-Du kannst ein kostenfreies 30-minütiges Erstgespräch buchen, eine kurze Frage über WhatsApp senden oder das Kontaktformular nutzen.
+Du kannst eine 50-minütige Session für 25 € buchen, eine kurze Frage über WhatsApp senden oder das Kontaktformular nutzen.
 
-## Erstgespräch buchen
+## Gespräch buchen
 
-Im kostenfreien Erstgespräch lernst du Mario kennen und klärst, ob UmmahCare zu deinem Anliegen passt. Das Gespräch dauert 30 Minuten.
+Die Session mit Mario dauert 50 Minuten und kostet 25 €.
 
-**Aktion:** Erstgespräch mit Mario buchen
+**Aktion:** 50-Minuten-Session mit Mario buchen
 
 **Hinweis vor dem Link:** Es öffnet sich ein externer Buchungskalender. Dort wählst du deinen Termin. Anschließend erhältst du deinen Zoom-Link und Terminerinnerungen.
 
@@ -296,7 +308,7 @@ Wenn du dich oder andere akut gefährdet siehst oder sofort Hilfe brauchst, wend
 
 ## Jetzt Kontaktweg wählen
 
-**Aktion 1:** Erstgespräch mit Mario buchen  
+**Aktion 1:** 50-Minuten-Session mit Mario buchen
 **Aktion 2:** Mario über WhatsApp fragen  
 **Aktion 3:** Rückkontakt von Mario anfragen
 
@@ -304,13 +316,8 @@ Wenn du dich oder andere akut gefährdet siehst oder sofort Hilfe brauchst, wend
 
 # Offene Pflichtangaben vor Veröffentlichung
 
-- Preis des regulären 45-Minuten-Einzelgesprächs.
 - Schriftlich belegte, exakt zu verwendende Qualifikation von Jessica.
 - Schriftlich belegte, exakt zu verwendende Qualifikation von Mario.
-- WhatsApp-Nummer und finaler Link für Jessica.
-- WhatsApp-Nummer und finaler Link für Mario.
-- Calendly-Link für Jessica.
-- Calendly-Link für Mario.
 - Finaler Rückkontaktprozess und daraus folgende Formular-Pflichtfelder.
 - Fachlich und rechtlich geprüfter Krisenhinweis samt zulässiger Hilfsstellen.
 - Datenschutzhinweise für Formular, WhatsApp, Calendly und Zoom.

@@ -10,7 +10,7 @@ Deutschsprachige Muslime im DACH-Raum, die online eine ruhige Einordnung für al
 
 ## Product Purpose
 
-UmmahCare erklärt islamisch integrierte Lebensberatung und führt Schwestern eindeutig zu Jessica sowie Brüder eindeutig zu Mario. Erfolg bedeutet: Orientierung ohne Druck, klare Grenzen, nachvollziehbarer Ablauf und eine barrierearme Wahl zwischen Erstgespräch, WhatsApp-Frage und datensparsamem Rückkontakt.
+UmmahCare erklärt islamisch integrierte Lebensberatung und führt Schwestern eindeutig zu Jessica sowie Brüder eindeutig zu Mario. Erfolg bedeutet: Orientierung ohne Druck, klare Grenzen, nachvollziehbarer Ablauf und eine barrierearme Wahl zwischen 50-minütiger Session, WhatsApp-Frage und datensparsamem Rückkontakt.
 
 ## Brand Personality
 
@@ -28,9 +28,10 @@ Ruhig, respektvoll, zugewandt. Die Oberfläche soll Sicherheit durch Klarheit sc
 
 1. Orientierung vor Conversion: Wegwahl und Leistungsrahmen müssen vor externen Kontaktaktionen verständlich sein.
 2. Gleichwertige Wege: Jessica/Schwestern und Mario/Brüder erhalten dieselbe visuelle Priorität und bleiben technisch getrennt.
-3. Ruhe durch Klarheit: wenige Farben, erkennbare Hierarchie, kurze Zeilen und großzügiger Abstand.
-4. Grenzen sichtbar machen: keine wichtigen Bedingungen im Kleingedruckten oder hinter dekorativen Elementen verstecken.
-5. Progressive Verbesserung: Kerninhalt und eindeutige Links funktionieren ohne JavaScript; Auswahlzustände verbessern den Weg nur zusätzlich.
+3. Betreiber-Videos werden nur über datensparsame externe Textlinks angeboten. Kein YouTube-Embed und kein extern geladenes Thumbnail vor dem bewussten Klick.
+4. Ruhe durch Klarheit: wenige Farben, erkennbare Hierarchie, kurze Zeilen und großzügiger Abstand.
+5. Grenzen sichtbar machen: keine wichtigen Bedingungen im Kleingedruckten oder hinter dekorativen Elementen verstecken.
+6. Progressive Verbesserung: Kerninhalt und eindeutige Links funktionieren ohne JavaScript; Auswahlzustände verbessern den Weg nur zusätzlich.
 
 ## Accessibility & Inclusion
 

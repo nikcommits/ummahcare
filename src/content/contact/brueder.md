@@ -3,22 +3,24 @@ path: brueder
 person: Mario
 meta:
   title: Kontakt für Brüder | UmmahCare
-  description: Erstgespräch mit Mario buchen, kurze Frage über WhatsApp senden oder einen vertraulichen Rückkontakt anfragen.
+  description: 50-minütige Session mit Mario buchen, kurze Frage über WhatsApp senden oder einen vertraulichen Rückkontakt anfragen.
 hero:
   eyebrow: Dein Gesprächsweg bei UmmahCare
   title: Kontakt für Brüder
   subtitle: Dein direkter Weg zu Mario
-  lead: Du kannst ein kostenfreies 30-minütiges Erstgespräch buchen, eine kurze Frage über WhatsApp senden oder das Kontaktformular nutzen.
+  lead: Du kannst eine 50-minütige Session für 25 € buchen, eine kurze Frage über WhatsApp senden oder das Kontaktformular nutzen.
 booking:
-  title: Erstgespräch buchen
-  text: Im kostenfreien Erstgespräch lernst du Mario kennen und klärst, ob UmmahCare zu deinem Anliegen passt. Das Gespräch dauert 30 Minuten.
-  label: Erstgespräch mit Mario buchen
-  help: Es öffnet sich ein externer Buchungskalender. Dort wählst du deinen Termin. Anschließend erhältst du deinen Zoom-Link und Terminerinnerungen.
+  title: Gespräch buchen
+  text: Die Session mit Mario dauert 50 Minuten und kostet 25 €.
+  label: 50-Minuten-Session mit Mario buchen
+  href: https://calendly.com/office-mariowelz/ummahcare-50minsession-bruder
+  help: Erst mit dem Klick öffnet sich Calendly. Dort wählst du deinen Termin und es gelten die Datenschutzbestimmungen von Calendly.
 whatsapp:
   title: Über WhatsApp fragen
   text: WhatsApp eignet sich für eine kurze organisatorische Frage oder erste Anfrage. Bitte sende dort keine ausführlichen sensiblen Angaben zu deiner persönlichen Situation.
   label: Mario über WhatsApp fragen
-  help: Es öffnet sich WhatsApp. Informationen zur Datenverarbeitung folgen in der Datenschutzerklärung.
+  href: https://wa.me/4915567045915
+  help: Erst mit dem Klick öffnet sich WhatsApp. Sende bitte nur eine kurze organisatorische Anfrage und keine sensiblen Einzelheiten.
 form:
   title: Rückkontakt anfragen
   text: Nutze das Formular, wenn du weder direkt buchen noch WhatsApp verwenden möchtest. Wir fragen nur Daten ab, die für den Rückkontakt erforderlich sind.
@@ -41,7 +43,7 @@ boundary:
 closing:
   title: Jetzt Kontaktweg wählen
   actions:
-    - Erstgespräch mit Mario buchen
+    - 50-Minuten-Session mit Mario buchen
     - Mario über WhatsApp fragen
     - Rückkontakt von Mario anfragen
 ---
