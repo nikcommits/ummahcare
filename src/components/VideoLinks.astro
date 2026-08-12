@@ -39,18 +39,20 @@ const { videos } = Astro.props;
                 {video.note}
               </p>
             )}
-            <a
-              href={video.href}
-              target="_blank"
-              rel="external noopener noreferrer"
-              class="mt-6 inline-flex min-h-13 items-center justify-center rounded-xl border border-ink bg-white px-5 py-3 text-center font-semibold text-ink hover:bg-teal-soft focus:outline-3 focus:outline-offset-3 focus:outline-ink lg:mt-auto"
-            >
-              {video.label}
-              <span class="sr-only">
-                {' '}
-                (öffnet YouTube extern in einem neuen Tab)
-              </span>
-            </a>
+            <div class="mt-auto pt-8">
+              <a
+                href={video.href}
+                target="_blank"
+                rel="external noopener noreferrer"
+                class="flex min-h-13 items-center justify-center rounded-xl border border-ink bg-white px-5 py-3 text-center font-semibold text-ink hover:bg-teal-soft focus:outline-3 focus:outline-offset-3 focus:outline-ink"
+              >
+                {video.label}
+                <span class="sr-only">
+                  {' '}
+                  (öffnet YouTube extern in einem neuen Tab)
+                </span>
+              </a>
+            </div>
           </article>
         ))
       }
